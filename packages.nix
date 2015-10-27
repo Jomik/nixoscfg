@@ -15,7 +15,4 @@
   environment.systemPackages = with pkgs; [
     wget curl gitAndTools.gitFull chromium vim
   ];
-
-  programs.zsh.enable = true;
-  users.defaultUserShell = "${pkgs.zsh}/bin/zsh";
 }
