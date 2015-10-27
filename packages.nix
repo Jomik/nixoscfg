@@ -13,6 +13,6 @@
   # List packages installed in system profile. To search by name, run:
   # $ nix-env -qaP | grep wget
   environment.systemPackages = with pkgs; [
-    wget curl gitAndTools.gitFull chromium vim
+    wget curl gitAndTools.gitFull chromium vim kde5.kwalletmanager
   ];
 }
