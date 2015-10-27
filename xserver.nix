@@ -1,11 +1,6 @@
 { config, pkgs, ... }:
 
 {
-  imports = [
-    # Import our synaptics driver configuration.
-    ./synaptics.nix
-  ];
-
   # Enable the X11 windowing system.
   services.xserver.enable = true;
   services.xserver.videoDrivers = [ "intel" "vesa" ];
