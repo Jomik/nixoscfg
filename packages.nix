@@ -15,4 +15,5 @@
   environment.systemPackages = with pkgs; [
     wget curl gitAndTools.gitFull chromium vim kde5.kwalletmanager
   ];
+  services.locate.enable = true;
 }
