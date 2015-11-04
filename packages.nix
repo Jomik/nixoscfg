@@ -14,7 +14,7 @@
     wget curl
     gitAndTools.gitFull 
     chromium
-    vim emacs24WithPackages
+    vim emacs
     rxvt_unicode
   ];
 
