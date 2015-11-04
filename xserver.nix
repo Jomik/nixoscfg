@@ -11,4 +11,7 @@
     enable = true;
     enableContribAndExtras = true;
   };
+  environment.systemPackages = with pkgs; [
+    xscreensaver
+  ];
 }
