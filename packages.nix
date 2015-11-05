@@ -20,6 +20,4 @@
 
   programs.zsh.enable = true;
   users.defaultUserShell = "/run/current-system/sw/bin/zsh";
-
-  services.locate.enable = true;
 }
