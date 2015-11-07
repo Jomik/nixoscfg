@@ -6,7 +6,14 @@
   services.xserver.layout = "us";
   services.xserver.xkbOptions = "compose:caps";
 
-  services.xserver.displayManager.sddm.enable = true;
+  services.xserver.displayManager = {
+    sddm.enable = true;
+    sessionCommands = ''
+      xscreensaver -no-splash &
+      xsetroot -solid midnightblue &
+      xsetroot -cursor_name left_ptr &
+    '';
+  };
   services.xserver.windowManager.xmonad = {
     enable = true;
     enableContribAndExtras = true;
