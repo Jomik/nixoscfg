@@ -11,11 +11,12 @@
   };
 
   environment.systemPackages = with pkgs; [
-    wget curl
+    wget curl scrot
     gitAndTools.gitFull 
     chromium
+    weechat
     vim emacs
-    rxvt_unicode
+    rxvt_unicode-with-plugins
   ];
 
   programs.zsh.enable = true;
