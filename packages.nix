@@ -13,11 +13,11 @@
   environment.systemPackages = with pkgs; [
     wget curl scrot
     gitAndTools.gitFull 
+    openjdk
     chromium
     weechat
     vim emacs
     rxvt_unicode-with-plugins
-    fish
   ];
 
   fonts = {
