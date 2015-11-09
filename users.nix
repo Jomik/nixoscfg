@@ -1,9 +1,9 @@
 { config, pkgs, ... }:
 
 {
+  environment.systemPackages = with pkgs; [ fish ];
   users = {
-    environment.systemPackages = with pkgs; [ fish ];
-    defaultUserShell = "/run/current-system/sw/bin/fish"
+    defaultUserShell = "/run/current-system/sw/bin/fish";
 
     extraUsers.jomik = {
       isNormalUser = true;
