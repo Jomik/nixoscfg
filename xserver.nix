@@ -9,7 +9,6 @@
   services.xserver.displayManager = {
     sddm.enable = true;
     sessionCommands = ''
-      xscreensaver -no-splash &
       xsetroot -cursor_name left_ptr &
     '';
   };
@@ -18,7 +17,6 @@
     enableContribAndExtras = true;
   };
   environment.systemPackages = with pkgs; [
-    xscreensaver
     dmenu2
     haskellPackages.xmobar
   ];

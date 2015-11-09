@@ -17,10 +17,8 @@
     weechat
     vim emacs
     rxvt_unicode-with-plugins
+    fish
   ];
-
-  programs.zsh.enable = true;
-  users.defaultUserShell = "/run/current-system/sw/bin/zsh";
 
   fonts = {
     fontconfig = {
