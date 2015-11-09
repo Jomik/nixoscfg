@@ -43,7 +43,6 @@
       dosemu_fonts
       font-awesome-ttf
       freefont_ttf
-      hack-font
       inconsolata
       powerline-fonts
       proggyfonts
