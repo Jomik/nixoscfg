@@ -11,7 +11,8 @@
   };
 
   environment.systemPackages = with pkgs; [
-    wget curl scrot
+    wget curl
+    maim slop
     gitAndTools.gitFull 
     openjdk
     chromium
