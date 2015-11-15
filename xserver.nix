@@ -6,6 +6,8 @@
   services.xserver.layout = "us";
   services.xserver.xkbOptions = "compose:caps";
 
+  services.xserver.vaapiDrivers = [ pkgs. vaapiIntel ];
+
   services.xserver.displayManager = {
     sddm.enable = true;
     sessionCommands = ''
