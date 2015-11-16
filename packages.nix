@@ -15,7 +15,7 @@
     zip unzip
     maim slop
     gitAndTools.gitFull 
-    openjdk
+    openjdk gcc
     chromium
     weechat
     vim emacs
