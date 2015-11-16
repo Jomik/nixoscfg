@@ -9,15 +9,21 @@
   services.xserver.vaapiDrivers = [ pkgs. vaapiIntel ];
 
   services.xserver.displayManager = {
-    sddm.enable = true;
     sessionCommands = ''
       xsetroot -cursor_name left_ptr &
     '';
+    slim = {
+      enable = true;
+      defaultUser = "jomik";
+    };
   };
   services.xserver.windowManager.xmonad = {
     enable = true;
     enableContribAndExtras = true;
   };
+  services.xserver.desktopManager.default = "none";
+  services.xserver.desktopManager.xterm.enable = false;
+
   environment.systemPackages = with pkgs; [
     dmenu2
     haskellPackages.xmobar
