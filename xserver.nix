@@ -1,6 +1,9 @@
 { config, pkgs, ... }:
 
 {
+  # Hide mouse cursor when inactive.
+  services.unclutter.enable = true;
+
   # Enable the X11 windowing system.
   services.xserver.enable = true;
   services.xserver.layout = "us";
