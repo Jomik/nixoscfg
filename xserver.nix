@@ -19,6 +19,10 @@
       enable = true;
       defaultUser = "jomik";
       extraConfig = "focus_password yes";
+      theme = pkgs.fetchurl {
+        url = "https://github.com/jagajaga/nixos-slim-theme/archive/2.0.tar.gz";
+        sha256 = "0lldizhigx7bjhxkipii87y432hlf5wdvamnfxrryf9z7zkfypc8";
+      };
     };
   };
   services.xserver.windowManager.xmonad = {
