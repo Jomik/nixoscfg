@@ -31,7 +31,7 @@
       hinting.autohint = false;
       ultimate = {
         enable = true;
-        allowBitmaps = false;
+        allowBitmaps = true;
         rendering = pkgs.fontconfig-ultimate.rendering.ultimate-darker;
       };
     };
@@ -57,6 +57,7 @@
       unifont
       vistafonts
       wqy_microhei
+      hack-font
     ] ++ lib.filter lib.isDerivation (lib.attrValues lohit-fonts);
   };
 }
