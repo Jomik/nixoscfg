@@ -18,6 +18,7 @@
     slim = {
       enable = true;
       defaultUser = "jomik";
+      extraConfig = "focus_password yes";
     };
   };
   services.xserver.windowManager.xmonad = {
