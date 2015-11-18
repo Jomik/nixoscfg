@@ -12,7 +12,7 @@
 
   environment.systemPackages = with pkgs; [
     wget curl
-    silver-searcher fasd
+    silver-searcher autojump
     zip unzip
     maim slop
     gitAndTools.gitFull 
