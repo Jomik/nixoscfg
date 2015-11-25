@@ -19,7 +19,7 @@
     openjdk gcc
     chromium
     weechat
-    vim ctags
+    vim ctags tmux
     rxvt_unicode-with-plugins
   ];
 
