@@ -29,6 +29,7 @@
     enable = true;
     enableContribAndExtras = true;
   };
+  services.xserver.windowManager.i3.enable = true;
   services.xserver.desktopManager.default = "none";
   services.xserver.desktopManager.xterm.enable = false;
 
