@@ -35,6 +35,7 @@
 
   environment.systemPackages = with pkgs; [
     dmenu2
+    i3status
     haskellPackages.xmobar
   ];
 }
