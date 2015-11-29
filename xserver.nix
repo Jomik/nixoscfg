@@ -25,17 +25,11 @@
       };
     };
   };
-  #services.xserver.windowManager.xmonad = {
-    #enable = true;
-    #enableContribAndExtras = true;
-  #};
-  services.xserver.windowManager.i3.enable = true;
   services.xserver.desktopManager.default = "none";
   services.xserver.desktopManager.xterm.enable = false;
 
   environment.systemPackages = with pkgs; [
     dmenu2
     i3status
-    #haskellPackages.xmobar
   ];
 }
