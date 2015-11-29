@@ -11,9 +11,7 @@
   };
 
   environment.systemPackages = with pkgs; [
-    man_db utillinuxCurses
     wget curl
-    acpi
     silver-searcher autojump
     zip unzip
     maim slop
