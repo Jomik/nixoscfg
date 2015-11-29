@@ -35,8 +35,6 @@
         rendering = pkgs.fontconfig-ultimate.rendering.ultimate-darker;
       };
     };
-    enableGhostscriptFonts = true;
-    enableCoreFonts = true;
     fonts = with pkgs; [
       inconsolata
       powerline-fonts
