@@ -42,6 +42,6 @@
       powerline-fonts
       source-code-pro
       hack-font
-    ] ++ lib.filter lib.isDerivation (lib.attrValues lohit-fonts);
+    ];
   };
 }
