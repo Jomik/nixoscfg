@@ -16,10 +16,11 @@
     zip unzip
     maim slop
     gitAndTools.gitFull 
-    openjdk gcc
+    openjdk gcc gnumake python
     chromium
     weechat
     vim ctags tmux
+    emacs
     rxvt_unicode-with-plugins
   ];
 
